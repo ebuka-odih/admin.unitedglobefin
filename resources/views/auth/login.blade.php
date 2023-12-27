@@ -34,7 +34,8 @@
                             <!-- Header -->
                             <div class="mb-2 text-center">
                                 <a class="link-fx fw-bold fs-1" href="{{ route('index') }}">
-                                    <img src="{{ asset('img/logo.png') }}" alt="Bootstrap" width="300" height="80">
+                                    <h4 style="font-weight: bolder; color: black">{{ env("APP_NAME") }}</h4>
+                                    {{-- <img src="{{ asset('img/logo.png') }}" alt="Bootstrap" width="300" height="80"> --}}
                                 </a>
                                 <p class="text-uppercase fw-bold fs-sm text-muted mt-4">Sign In</p>
                             </div>
