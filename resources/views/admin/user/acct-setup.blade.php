@@ -28,7 +28,7 @@
                 <div class="block-content">
 
 
-                    <form class="row g-3" method="POST" action="{{ route('admin.storeAccountSetup') }}" enctype="multipart/form-data">
+                    <form class="row g-3" method="POST" action="{{ route('admin.storeAccountSetup', $user->id) }}" enctype="multipart/form-data">
                         @csrf
                         @if ($errors->any())
                             <div class="alert alert-danger">
